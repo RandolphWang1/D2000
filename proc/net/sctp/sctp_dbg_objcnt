@@ -1,0 +1,10 @@
+sock: 1                                                                                                                        
+ep: 1                                                                                                                          
+assoc: 0                                                                                                                       
+transport: 0                                                                                                                   
+chunk: 0                                                                                                                       
+bind_addr: 0                                                                                                                   
+bind_bucket: 0                                                                                                                 
+addr: 0                                                                                                                        
+ssnmap: 0                                                                                                                      
+datamsg: 0                                                                                                                     

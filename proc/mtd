@@ -1,0 +1,5 @@
+dev:    size   erasesize  name
+mtd0: 00100000 00004000 "U-boot"
+mtd1: 00500000 00004000 "linux 2.6.16 kernel"
+mtd2: 01800000 00004000 "root"
+mtd3: 02200000 00004000 "user"

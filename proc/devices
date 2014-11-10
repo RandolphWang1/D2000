@@ -1,0 +1,57 @@
+Character devices:
+255 backlight
+  1 mem
+  4 /dev/vc/0
+  4 tty
+  4 ttyS
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+  7 vcs
+ 10 misc
+ 13 input
+ 21 sg
+ 29 fb
+ 86 ch
+ 90 mtd
+108 ppp
+128 ptm
+136 pts
+221 sep4020_asyncio
+240 sep4020_gpio
+240 sep4020_gpio_dir
+241 sep4020_timer
+243 sep4020_power
+245 sep4020_voice
+246 sep4020_mgcard
+247 sep4020_mifare
+248 sep4020_graylcd
+250 sep4020_psam0
+251 sep4020_psam1
+253 sep4020_tlc549
+254 sep4020_key
+
+Block devices:
+  1 ramdisk
+  1 ramdisk
+  7 loop
+  8 sd
+ 31 mtdblock
+ 43 nbd
+ 65 sd
+ 66 sd
+ 67 sd
+ 68 sd
+ 69 sd
+ 70 sd
+ 71 sd
+ 93 nftl
+128 sd
+129 sd
+130 sd
+131 sd
+132 sd
+133 sd
+134 sd
+135 sd
+254 mmc

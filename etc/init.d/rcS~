@@ -1,0 +1,20 @@
+#! /bin/sh
+
+
+
+/bin/echo
+/bin/echo "**********************************************"
+/bin/echo "   SEP4020 ARM Linux-2.6.16 SDK 3.4.4    "
+/bin/echo "   Prochip_Your Embedded Partner！    "
+/bin/echo "**********************************************"
+
+echo "# mount all..........."
+
+/bin/mount -a
+
+echo "# Starting mdev........."
+
+mdev -s
+
+
+

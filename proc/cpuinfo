@@ -1,0 +1,12 @@
+Processor	: ARM720T rev 2 (v4l)
+BogoMIPS	: 43.62
+Features	: swp half thumb 
+CPU implementer	: 0x41
+CPU architecture: 4T
+CPU variant	: 0x00
+CPU part	: 0x720
+CPU revision	: 2
+
+Hardware	: 4020 board
+Revision	: 0000
+Serial		: 0000000000000000

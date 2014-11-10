@@ -1,0 +1,8 @@
+#/etc/ppp/peers/disconnect_gprs
+# This is pppd script for China Mobile
+# Usage:   root>pppd call gprs
+/dev/ttyS1
+115200
+nocrtscts
+modem
+disconnect '/usr/sbin/chat -s -v -f /etc/ppp/disconnect-gprs'

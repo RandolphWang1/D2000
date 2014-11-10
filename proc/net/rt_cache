@@ -1,0 +1,11 @@
+Iface	Destination	Gateway 	Flags		RefCnt	Use	Metric	Source		MTU	Window	IRTT	TOS	HHRef	HHUptod	SpecDst                          
+eth0	0F01A8C0	0F01A8C0	       0	0	1	0	8001A8C0	1500	0	5	00	3	1	8001A8C0                                                        
+lo	FF01A8C0	FF01A8C0	94000000	0	24	0	0D01A8C0	0	0	0	00	-1	0	8001A8C0                                                           
+lo	FF01A8C0	FF01A8C0	94000000	0	0	0	3801A8C0	0	0	0	00	-1	0	8001A8C0                                                            
+eth0	0F01A8C0	0F01A8C0	       0	0	11528	0	8001A8C0	1500	0	0	00	3	1	8001A8C0                                                    
+lo	FFFFFFFF	FFFFFFFF	94000000	0	5	0	0B01A8C0	0	0	0	00	-1	0	8001A8C0                                                            
+lo	8001A8C0	8001A8C0	84000000	0	11536	0	0F01A8C0	0	0	0	00	-1	0	8001A8C0                                                        
+lo	FF01A8C0	FF01A8C0	94000000	0	0	0	0B01A8C0	0	0	0	00	-1	0	8001A8C0                                                            
+lo	FF01A8C0	FF01A8C0	94000000	0	9	0	6501A8C0	0	0	0	00	-1	0	8001A8C0                                                            
+lo	FF01A8C0	FF01A8C0	94000000	0	0	0	4201A8C0	0	0	0	00	-1	0	8001A8C0                                                            
+lo	FF01A8C0	FF01A8C0	94000000	0	106	0	1001A8C0	0	0	0	00	-1	0	8001A8C0                                                          

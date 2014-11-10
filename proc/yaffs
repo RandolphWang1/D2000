@@ -1,0 +1,33 @@
+YAFFS built:Mar 28 2012 09:57:48
+$Id: yaffs_fs.c,v 1.51 2006/07/25 21:03:22 charles Exp $
+$Id: yaffs_guts.c,v 1.35 2006/06/05 04:10:49 charles Exp $
+
+Device 0 "user"
+startBlock......... 0
+endBlock........... 2175
+chunkGroupBits..... 1
+chunkGroupSize..... 2
+nErasedBlocks...... 109
+nTnodesCreated..... 5200
+nFreeTnodes........ 31
+nObjectsCreated.... 1000
+nFreeObjects....... 18
+nFreeChunks........ 4619
+nPageWrites........ 60
+nPageReads......... 20530
+nBlockErasures..... 2
+nGCCopies.......... 4
+garbageCollections. 2
+passiveGCs......... 2
+nRetriedWrites..... 0
+nRetireBlocks...... 0
+eccFixed........... 0
+eccUnfixed......... 0
+tagsEccFixed....... 0
+tagsEccUnfixed..... 0
+cacheHits.......... 0
+nDeletedFiles...... 46
+nUnlinkedFiles..... 46
+nBackgroudDeletions 0
+useNANDECC......... 0
+isYaffs2........... 0

@@ -1,0 +1,11 @@
+           CPU0
+  1:          0   4020KEY
+  7:          9   4020MIFARE
+  8:          0   eth0
+ 12:          8   sep4020_mci
+ 15:          0   sep4020_udc
+ 24:       1119   serial
+ 26:          0   4020TIME
+ 27:      18210   sep4020 Timer Tick
+ 28:      12055   eth0
+Err:          0

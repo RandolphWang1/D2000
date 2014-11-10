@@ -1,0 +1,97 @@
+
+export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:$LD_LIBRARY_PATH
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:$PATH
+
+mknod /dev/ttyp5 c 3 5
+mknod /dev/ptyp5 c 2 5
+
+export T_ROOT=/
+export LD_LIBRARY_PATH=/lib 
+export TSLIB_CONSOLEDEVICE=none  
+export TSLIB_TSDEVICE=/dev/tp
+export TSLIB_CALIBFILE=/etc/pointercal     
+export TSLIB_CONFFILE=/etc/ts.conf   
+export TSLIB_PLUGINDIR=/plugins 
+
+hwclock -s
+
+#insmod /driver/g_file_storage.ko file=/fat32.img stall=0 removable=1
+
+if [ -f "/mnt/key.txt" ];then
+#	losetup /dev/loop0 /driver/fat32.img
+#	mount -t vfat /dev/loop0 /mnt/usbdisk
+    mount /dev/mmcblk0 /mnt/sd
+
+	if [ -f "/mnt/sd/update.tar" ];then 		#如果存在升级文件按Update.tar.gz
+	cd /mnt/sd
+		md5sum -c update.md5 > key.txt 						#将校验的结果保存到key.txt中
+		read ret < key.txt 										#读取key.txt文件并保存到ret中
+		echo $ret
+		str="update.tar: OK"
+
+		if [ "$ret" = "$str" ];then 							#如果ret == "Update.tar.gz: OK"则升级
+			tar -xjvf update.tar 							#解压升级包
+			cp Update/driver/* /driver 						#替换需升级的驱动
+			cp Update/App/* /App			#替换应用程序
+			cp Update/etc/* /etc									#替换配置文件
+			echo update finished
+		else
+			echo md5 Validation failure
+		fi
+	else
+		echo no Update.tar.gz
+	fi
+fi
+
+cd /
+
+
+mknod /dev/sep4020_gpio c 240 0
+mknod /dev/sep4020_gpio_dir c 240 1
+mknod /dev/graylcd c 248 0
+#mknod /dev/cmx865 c 249 0
+mknod /dev/voice c 245 0
+#mknod /dev/mg_card c 246 0
+mknod /dev/pa1100 c 220 0
+mknod /dev/ic c 258 0
+mknod /dev/light c 255 0
+mkdir /dev/pts
+mknod /dev/pts/0 c 136 0
+mknod /dev/pts/1 c 136 1
+mknod /dev/sep4020_pwm c 245 0
+#mkdir /var/run
+
+mknod /dev/key c 254 0
+mknod /dev/asyncio 	c 	221 0
+mknod /dev/power 		c 	243 0
+mknod /dev/tlc549 c 253 0
+mknod /dev/mifare c 247 0
+mknod /dev/psam0 c  250 0
+mknod /dev/psam1 c  251 0
+
+insmod /driver/sep4020_graylcd.ko
+insmod /driver/sep4020_key.ko
+insmod /driver/sep4020_mifare.ko
+insmod /driver/sep4020_gpio.ko
+insmod /driver/sep4020_voice.ko
+#insmod /driver/sep4020_mgcard.ko
+insmod /driver/sep4020_pa1100.ko
+insmod /driver/sep4020_adc.ko
+insmod /driver/sep4020_psam0.ko
+insmod /driver/sep4020_psam1.ko
+insmod /driver/sep4020_backlight.ko
+insmod /driver/sep4020_gpiodir.ko
+insmod /driver/sep4020_asyncio.ko
+insmod /driver/sep4020_power.ko
+
+
+
+rm -rf /mnt/key.txt
+umount /mnt/usbdisk
+#ifconfig eth0 192.168.1.128
+#mount -t nfs -o nolock 192.168.1.15:/nfs /nfs
+#cd /nfs/driver
+cd /App/demo_App
+#cd /driver
+#/nfs/App/App
+./App

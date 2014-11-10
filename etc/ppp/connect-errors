@@ -1,0 +1,77 @@
+timeout set to 15 seconds
+abort on (DELAYED)
+abort on (BUSY)
+abort on (ERROR)
+abort on (NO DIALTONE)
+abort on (NO CARRIER)
+timeout set to 40 seconds
+send (^MAT^M)
+expect (OK)
+timeout set to 15 seconds
+abort on (DELAYED)
+abort on (BUSY)
+abort on (ERROR)
+abort on (NO DIALTONE)
+abort on (NO CARRIER)
+timeout set to 40 seconds
+send (^MAT^M)
+expect (OK)
+alarm
+Failed
+alarm
+Failed
+timeout set to 15 seconds
+abort on (DELAYED)
+abort on (BUSY)
+abort on (ERROR)
+abort on (NO DIALTONE)
+abort on (NO CARRIER)
+timeout set to 40 seconds
+send (^MAT^M)
+expect (OK)
+timeout set to 15 seconds
+abort on (DELAYED)
+abort on (BUSY)
+abort on (ERROR)
+abort on (NO DIALTONE)
+abort on (NO CARRIER)
+timeout set to 40 seconds
+send (^MAT^M)
+expect (OK)
+alarm
+Failed
+alarm
+Failed
+timeout set to 15 seconds
+abort on (DELAYED)
+abort on (BUSY)
+abort on (ERROR)
+abort on (NO DIALTONE)
+abort on (NO CARRIER)
+timeout set to 40 seconds
+send (^MAT^M)
+expect (OK)
+alarm
+Failed
+timeout set to 15 seconds
+abort on (DELAYED)
+abort on (BUSY)
+abort on (ERROR)
+abort on (NO DIALTONE)
+abort on (NO CARRIER)
+timeout set to 40 seconds
+send (^MAT^M)
+expect (OK)
+alarm
+Failed
+timeout set to 15 seconds
+abort on (DELAYED)
+abort on (BUSY)
+abort on (ERROR)
+abort on (NO DIALTONE)
+abort on (NO CARRIER)
+timeout set to 40 seconds
+send (^MAT^M)
+expect (OK)
+alarm
+Failed

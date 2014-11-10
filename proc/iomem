@@ -1,0 +1,19 @@
+10005000-1000501f : serial
+10006000-1000601f : serial
+10007000-1000701f : serial
+10008000-1000801f : serial
+2c000000-2d000000 : s1r72v17
+30000000-31ffffff : System RAM
+  30022000-302834d7 : Kernel text
+  30284000-3031b8a3 : Kernel data
+e0002000-e000202f : sep4020_rtc
+  e0002000-e000202f : sep4020_rtc
+e000a000-e000afff : sep4020-iis
+e000b000-e000bfff : sep4020_mci
+  e000b000-e000bfff : sep4020_mci
+e000c000-e000cfff : sep4020-psam
+e000d000-e000dfff : sep4020-psam
+e000e000-e000efff : sep4020-usbgadget
+  e000e000-e000efff : sep4020_udc
+e1002000-e1002fff : sep4020-lcd
+e1003000-e1003fff : sep4020_ether

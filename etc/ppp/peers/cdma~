@@ -1,0 +1,13 @@
+ttyS1
+115200
+nocrtscts
+persist
+connect '/usr/sbin/chat -v -f /etc/ppp/cdma'
+debug
+nodetach
+ipcp-accept-local
+ipcp-accept-remote
+defaultroute
+user card
+usepeerdns
+0.0.0.0:0.0.0.0

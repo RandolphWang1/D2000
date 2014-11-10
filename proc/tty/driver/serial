@@ -1,0 +1,5 @@
+serinfo:1.0 driver revision:
+0: uart:16450 mmio:0x10005000 irq:24 tx:1413 rx:110 RTS|CTS|DTR|DSR|CD|RI
+1: uart:16450 mmio:0x10006000 irq:23 tx:0 rx:0 CTS|DSR|CD|RI
+2: uart:16450 mmio:0x10007000 irq:22 tx:0 rx:0 CTS|DSR|CD|RI
+3: uart:16450 mmio:0x10008000 irq:21 tx:10 rx:0 CTS|DSR|CD|RI

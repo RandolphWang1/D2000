@@ -1,0 +1,13 @@
+sep4020_power 3328 0 - Live 0xbf021000
+sep4020_asyncio 2820 1 sep4020_power, Live 0xbf01f000
+sep4020_gpio_dir 2824 0 - Live 0xbf01d000
+sep4020_backlight 2340 0 - Live 0xbf01b000
+sep4020_psam1 4584 0 - Live 0xbf018000
+sep4020_psam0 4584 0 - Live 0xbf015000
+sep4020_adc 2596 0 - Live 0xbf013000
+sep4020_mgcard 4200 0 - Live 0xbf010000
+sep4020_voice 2796 0 - Live 0xbf00e000
+sep4020_gpio 2952 0 - Live 0xbf00c000
+sep4020_rc531 15404 0 - Live 0xbf007000
+sep4020_key 5148 0 - Live 0xbf004000
+sep4020_graylcd 11108 0 - Live 0xbf000000

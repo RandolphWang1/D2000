@@ -1,0 +1,43 @@
+#!/bin/sh
+dns="8.8.8.8"
+
+#i=0
+pppd call gprs&
+
+sleep 15
+
+#while [ $i != 2 ] 
+
+#do
+
+let i=$i+1
+
+ping -s 1 -c 1 $dns #去PING第一个DNS
+
+if [ "$?" != "0" ] #假如PING不通
+then
+
+echo 1 error
+echo 1 > /var/log/messages
+exit
+
+#./poweroff
+#/etc/ppp/ppp-off
+#sleep 15
+#pppd call gprs& #再去拨号
+#sleep 15
+
+#if [ $i == 2 ]
+#then
+#echo 1 > /var/log/messages
+#fi
+
+
+else
+echo ok
+exit
+#i=2
+
+fi
+#done
+

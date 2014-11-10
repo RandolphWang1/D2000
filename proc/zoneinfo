@@ -1,0 +1,24 @@
+Node 0, zone      DMA
+  pages free     5410
+        min      181
+        low      226
+        high     271
+        active   367
+        inactive 720
+        scanned  0 (a: 0 i: 0)
+        spanned  8192
+        present  8192
+        protection: (0, 0, 0, 0)
+  pagesets
+    cpu: 0 pcp: 0
+              count: 2
+              high:  6
+              batch: 1
+    cpu: 0 pcp: 1
+              count: 0
+              high:  2
+              batch: 1
+  all_unreclaimable: 0
+  prev_priority:     12
+  temp_priority:     12
+  start_pfn:         196608

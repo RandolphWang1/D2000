@@ -1,0 +1,16 @@
+#/etc/ppp/peers/gprs
+# This is pppd script for China Mobile
+# Usage:   root>pppd call gprs
+/dev/ttyS1
+115200
+nocrtscts
+modem
+debug
+nodetach
+usepeerdns
+noipdefault
+defaultroute
+user "cmnet"
+0.0.0.0:0.0.0.0
+persist
+connect '/usr/sbin/chat -s -v -f /etc/ppp/gprs'

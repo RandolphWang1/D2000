@@ -1,0 +1,518 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASCIIKu	HanziZiku.h	/^unsigned char ASCIIKu[873]={$/;"	v
+ASII_addr	App.h	48;"	d
+ASYNCIO	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+BACK	mg_card.c	7;"	d	file:
+CANCEL	bios_test.c	20;"	d	file:
+CC	Makefile	/^CC = \/usr\/local\/arm\/3.4.1\/bin\/arm-linux-gcc$/;"	m
+CC	demo/Makefile	/^CC = arm-linux-gcc$/;"	m
+CLEAR	bios_test.c	19;"	d	file:
+CLEAR_LCD	App.h	29;"	d
+COLDRESET	demo/demo_psam0.c	3;"	d	file:
+COLDRESET	demo/demo_psam1.c	3;"	d	file:
+COLDRESET	psam.c	8;"	d	file:
+CONTRAST	App.h	59;"	d
+ChangeData	mg_card.c	/^static char ChangeData(char data)$/;"	f	file:
+ChangeData1	mg_card.c	/^static char ChangeData1(char data)$/;"	f	file:
+ConnectToServer	gprs_socket.c	/^static int ConnectToServer (char *recv_data)\/\/连接到服务器并接受返回	2009-06-11 15:09:57$/;"	f	file:
+DEBUG	mg_card.c	20;"	d	file:
+DEFAULT	App.h	110;"	d
+DRAW_CIRCLE	App.h	24;"	d
+DRAW_ELLIPSE	App.h	22;"	d
+DRAW_LINE	App.h	16;"	d
+DRAW_PIC	App.h	15;"	d
+DRAW_PIC	App.h	26;"	d
+DRAW_RECT	App.h	20;"	d
+DRIVER	App.h	/^struct DRIVER$/;"	s
+Drivers	App.h	/^}Drivers[20];$/;"	v	typeref:struct:DRIVER
+END	App.h	113;"	d
+ExtractData	gprs_socket.c	/^static int ExtractData(char *sou, char *des)				\/\/提取有用的数据$/;"	f	file:
+FALSE	App.h	46;"	d
+FIFO	function.c	9;"	d	file:
+FILL_CIRCLE	App.h	25;"	d
+FILL_CNB	App.h	30;"	d
+FILL_ELLIPSE	App.h	23;"	d
+FILL_RECT	App.h	21;"	d
+FORWARD	mg_card.c	6;"	d	file:
+GPIO	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+GPRS_PORT	App.h	95;"	d
+GPRS_PORT_NUM	App.h	96;"	d
+GRAPHIC_FONT	App.h	27;"	d
+GRAYLCD	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+HIGH	App.h	92;"	d
+HanziKu	HanziZiku.h	/^unsigned char HanziKu[130302]={$/;"	v
+Hanzk_addr	App.h	39;"	d
+Hanzk_han_offset	App.h	43;"	d
+Hanzk_one_sec	App.h	40;"	d
+Hanzk_sec6_offset	App.h	41;"	d
+Hanzk_sec9_offset	App.h	42;"	d
+Hanzk_space	App.h	44;"	d
+IO_flag	demo_rc531.c	/^int IO_flag = 1;$/;"	v
+InitAsyncio	function.c	/^void InitAsyncio(void)		\/\/��ʼ���첽io����$/;"	f
+KEY	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+KEY_CANCEL	App.h	72;"	d
+KEY_DELETE	App.h	87;"	d
+KEY_DOWN	App.h	67;"	d
+KEY_ENTER	App.h	73;"	d
+KEY_F1	App.h	68;"	d
+KEY_F2	App.h	69;"	d
+KEY_F3	App.h	70;"	d
+KEY_F4	App.h	71;"	d
+KEY_NUM0	App.h	75;"	d
+KEY_NUM1	App.h	76;"	d
+KEY_NUM2	App.h	77;"	d
+KEY_NUM3	App.h	78;"	d
+KEY_NUM4	App.h	79;"	d
+KEY_NUM5	App.h	80;"	d
+KEY_NUM6	App.h	81;"	d
+KEY_NUM7	App.h	82;"	d
+KEY_NUM8	App.h	84;"	d
+KEY_NUM9	App.h	86;"	d
+KEY_UP	App.h	66;"	d
+LANGUAGE	App.h	61;"	d
+LCDFILL	App.h	31;"	d
+LCD_CLOSE	App.h	36;"	d
+LCD_OFF	function.c	/^void LCD_OFF()$/;"	f
+LCD_WRITE_AF	App.h	37;"	d
+LEFT	bios_test.c	17;"	d	file:
+LIGHT	App.h	60;"	d
+LINK	Makefile	/^LINK = $(CC)$/;"	m
+LINK	demo/Makefile	/^LINK = $(CC)$/;"	m
+LOOP	App.h	109;"	d
+LOW	App.h	93;"	d
+LcdTextChar	function.c	/^unsigned char LcdTextChar(unsigned char xPos, unsigned char yPos, unsigned char charcode)$/;"	f
+LcdTextChinese	function.c	/^unsigned char LcdTextChinese(unsigned char xPos, unsigned char yPos, unsigned short ChineseCode)$/;"	f
+LcdUnzipZK	function.c	/^void LcdUnzipZK(unsigned char *FontUnzip, unsigned long offset,unsigned char num)$/;"	f
+Lcd_height	App.h	50;"	d
+Lcd_width	App.h	49;"	d
+Light	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+MENU_FLAG	App.h	55;"	d
+MGCARD	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+MGCARD_PORT	App.h	99;"	d
+MGCARD_PORT_NUM	App.h	100;"	d
+MI_OK	demo_rc531.c	7;"	d	file:
+MI_OK	rc531.c	8;"	d	file:
+MODE_GETNUM	demo_rc531.c	5;"	d	file:
+MODE_GETNUM	rc531.c	6;"	d	file:
+MODE_INITAUTHENTICA	demo_rc531.c	3;"	d	file:
+MODE_INITAUTHENTICA	rc531.c	4;"	d	file:
+Message	demo_App/gprs.c	/^struct Message{$/;"	s	file:
+Message	function.c	/^struct Message{$/;"	s	file:
+NORMAL	App.h	111;"	d
+NO_TRACK1	mg_card.c	8;"	d	file:
+NO_TRACK2	mg_card.c	9;"	d	file:
+NO_TRACK3	mg_card.c	10;"	d	file:
+Net_deal	sleep.c	/^void Net_deal(void)$/;"	f
+OBJ	Makefile	/^OBJ = App.c rc531.c gprs.c gprs_socket.c pwm.c mg_card.c psam.c sleep.c usb.c printer.c bios_test.c calendar.c help.c sdcard.c function.c  demo_rc531.c$/;"	m
+OBJ	demo/Makefile	/^OBJ = adc key printer psam0 psam1 pwm gprs mgcard App rc531$/;"	m
+OK	mg_card.c	11;"	d	file:
+OPTION_NUM	App.h	18;"	d
+PAGE_NUM	App.h	17;"	d
+PAGE_ONE	App.h	52;"	d
+PAGE_TWO	App.h	53;"	d
+PAINT_RECT	App.h	33;"	d
+POWER	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+PRINTER_PORT_NUM0	App.h	106;"	d
+PRINTER_PORT_NUM1	App.h	107;"	d
+PRINTTER_PORT	App.h	105;"	d
+PRTBUF	demo/demo_printer.c	/^char PRTBUF[1024];$/;"	v
+PRTBUF	printer.c	/^char PRTBUF[1024];$/;"	v
+PRT_Alignment	demo/demo_printer.c	/^int PRT_Alignment(unsigned char type)$/;"	f
+PRT_Alignment	printer.c	/^int PRT_Alignment(unsigned char type)$/;"	f
+PRT_Black	demo/demo_printer.c	/^int PRT_Black(char n)$/;"	f
+PRT_Black	printer.c	/^int PRT_Black(char n)$/;"	f
+PRT_Empty	demo/demo_printer.c	/^int PRT_Empty(char n)$/;"	f
+PRT_Empty	printer.c	/^int PRT_Empty(int fd,char n)$/;"	f
+PRT_HZoom	demo/demo_printer.c	/^int PRT_HZoom(char n)$/;"	f
+PRT_HZoom	printer.c	/^int PRT_HZoom(char n)$/;"	f
+PRT_LineSpace	demo/demo_printer.c	/^int PRT_LineSpace(char n)$/;"	f
+PRT_LineSpace	printer.c	/^int PRT_LineSpace(char n)$/;"	f
+PRT_PaperGo	demo/demo_printer.c	/^int PRT_PaperGo(char n)$/;"	f
+PRT_PaperGo	printer.c	/^int PRT_PaperGo(char n)$/;"	f
+PRT_PaperState	demo/demo_printer.c	/^int PRT_PaperState(void)$/;"	f
+PRT_PaperState	printer.c	/^int PRT_PaperState(void)$/;"	f
+PRT_STATE	demo/demo_printer.c	/^char PRT_STATE = FALSE;$/;"	v
+PRT_STATE	printer.c	/^int PRT_STATE = 0;$/;"	v
+PRT_SetInit	demo/demo_printer.c	/^int PRT_SetInit(void)$/;"	f
+PRT_SetInit	printer.c	/^int PRT_SetInit(void)$/;"	f
+PRT_SetLineHeight	demo/demo_printer.c	/^int PRT_SetLineHeight(unsigned char height)$/;"	f
+PRT_SetLineHeight	printer.c	/^int PRT_SetLineHeight(unsigned char height)$/;"	f
+PRT_SetSpaceBetween	demo/demo_printer.c	/^int PRT_SetSpaceBetween(unsigned char width)$/;"	f
+PRT_SetSpaceBetween	printer.c	/^int PRT_SetSpaceBetween(unsigned char width)$/;"	f
+PRT_SetTextDouble	demo/demo_printer.c	/^int PRT_SetTextDouble(unsigned char WH)$/;"	f
+PRT_SetTextDouble	printer.c	/^int PRT_SetTextDouble(unsigned char WH)$/;"	f
+PRT_SetTextWH	demo/demo_printer.c	/^int PRT_SetTextWH(unsigned char WH)$/;"	f
+PRT_SetTextWH	printer.c	/^int PRT_SetTextWH(unsigned char WH)$/;"	f
+PRT_UnderLine	demo/demo_printer.c	/^int PRT_UnderLine(char state)$/;"	f
+PRT_UnderLine	printer.c	/^int PRT_UnderLine(char state)$/;"	f
+PRT_WHZoom	demo/demo_printer.c	/^int PRT_WHZoom(char n)$/;"	f
+PRT_WHZoom	printer.c	/^int PRT_WHZoom(char n)$/;"	f
+PRT_WZoom	demo/demo_printer.c	/^int PRT_WZoom(char n)$/;"	f
+PRT_WZoom	printer.c	/^int PRT_WZoom(char n)$/;"	f
+PRT_text	demo/demo_printer.c	/^int PRT_text(unsigned char * str, int cnt)$/;"	f
+PRT_text	printer.c	/^int PRT_text(unsigned char * str, int cnt)$/;"	f
+PSAM0	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+PSAM1	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+PSAM_coldreset	psam.c	/^int PSAM_coldreset(int fd,char *get_num)$/;"	f
+PSAM_random	psam.c	/^int PSAM_random(int fd,char *get_num)$/;"	f
+PWM	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+PWM_PORT	App.h	97;"	d
+PWM_PORT_NUM	App.h	98;"	d
+RC531	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+RC531_PORT	App.h	101;"	d
+RC531_PORT_NUM	App.h	102;"	d
+RECEIVE_LEN	demo/demo_psam0.c	4;"	d	file:
+RECEIVE_LEN	demo/demo_psam1.c	4;"	d	file:
+RECEIVE_LEN	psam.c	9;"	d	file:
+RIGHT	bios_test.c	18;"	d	file:
+Rc531_test	demo_rc531.c	/^void Rc531_test()$/;"	f
+SET_CONTRAST	App.h	35;"	d
+SET_ICON	App.h	34;"	d
+SET_PIXEL	App.h	28;"	d
+SIZE1_DATA_TRK1	mg_card.c	13;"	d	file:
+SIZE1_DATA_TRK2	mg_card.c	14;"	d	file:
+SIZE2_DATA_TRK3	mg_card.c	15;"	d	file:
+SIZE3_CARD_NUM1	mg_card.c	16;"	d	file:
+SIZE3_CARD_NUM2	mg_card.c	17;"	d	file:
+SIZE4_CARD_NUM3	mg_card.c	18;"	d	file:
+STATE	mg_card.c	12;"	d	file:
+SYSCONF	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+ShowTrack1	mg_card.c	/^static void ShowTrack1(char *back_track)$/;"	f	file:
+ShowTrack2	mg_card.c	/^static void ShowTrack2(char *back_track)$/;"	f	file:
+ShowTrack3	mg_card.c	/^static void ShowTrack3(char *back_track)$/;"	f	file:
+Sleep_deal	sleep.c	/^void Sleep_deal(int n)$/;"	f
+TIMEOUT	App.h	112;"	d
+TLC549	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+TLC549_server	function.c	/^void TLC549_server(void)	\/\/�������$/;"	f
+TLC549_thread	bios_test.c	/^void TLC549_thread(int fd_tlc549)$/;"	f
+TRUE	App.h	45;"	d
+TTYS2	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+TTYS3	App.h	/^	GRAYLCD,KEY,GPIO,ASYNCIO,POWER,RC531,TLC549,MGCARD,TTYS3,SYSCONF,Light,PWM,PSAM0,PSAM1,TTYS2,$/;"	e	enum:driver
+Timeout	demo_rc531.c	/^unsigned int Timeout= 10;$/;"	v
+USB_PORT	App.h	103;"	d
+USB_PORT_NUM	App.h	104;"	d
+_paint_struct	App.h	/^typedef struct _paint_struct$/;"	s
+arg	demo/demo_rc531.c	/^int arg;$/;"	v
+arg1	App.h	/^	int arg1;$/;"	m	struct:_paint_struct
+arg2	App.h	/^	int arg2;$/;"	m	struct:_paint_struct
+arg3	App.h	/^	int arg3;$/;"	m	struct:_paint_struct
+arg4	App.h	/^	int arg4;$/;"	m	struct:_paint_struct
+ascDot	sign.h	/^unsigned char ascDot[] =              \/\/ ASCII$/;"	v
+begintime	demo/demo_mgcard.c	/^struct timeval begintime, endtime;$/;"	v	typeref:struct:timeval
+begintime	demo_rc531.c	/^struct timeval begintime, currenttime;$/;"	v	typeref:struct:timeval
+begintime	rc531.c	/^struct timeval begintime, currenttime;$/;"	v	typeref:struct:timeval
+buf	demo/demo_adc.c	/^int buf[1]={0};$/;"	v
+buf	demo/demo_key.c	/^int buf[2]={0};$/;"	v
+buf	demo/demo_mgcard.c	/^char buf[2112];$/;"	v
+buf	demo_rc531.c	/^	unsigned char buf[100];$/;"	m	struct:__anon2	file:
+buf	demo_rc531.c	/^	unsigned char* buf;$/;"	m	struct:__anon1	file:
+buf	rc531.c	/^	unsigned char buf[100];$/;"	m	struct:__anon4	file:
+buf	rc531.c	/^	unsigned char* buf;$/;"	m	struct:__anon3	file:
+buf	rc531.c	/^int buf[3] = { 0 };$/;"	v
+buf2	demo/demo_printer.c	/^unsigned char buf2[]="�ͻ������           �����Ʊ���\\r";$/;"	v
+buf2	demo_rc531.c	/^unsigned char buf2[16];$/;"	v
+buf2	rc531.c	/^unsigned char buf2[16];$/;"	v
+buf3	demo/demo_printer.c	/^unsigned char buf3[]="��Ʒ����(Name) ��       \\r";$/;"	v
+buf4	demo/demo_printer.c	/^unsigned char buf4[]="                 \\r";$/;"	v
+buf5	demo/demo_printer.c	/^unsigned char buf5[]="�̻���MER NO.��       \\r";$/;"	v
+buf6	demo/demo_printer.c	/^unsigned char buf6[]="�ն˺ţ�                 00008\\r";$/;"	v
+buf7	demo/demo_printer.c	/^unsigned char buf7[]="����Ա�ţ�                  06\\r";$/;"	v
+buf8	demo/demo_printer.c	/^unsigned char buf8[]={0x1B,0x63,0x34,0x08};$/;"	v
+buffer	demo_rc531.c	/^unsigned char buffer[16];$/;"	v
+buffer	rc531.c	/^unsigned char buffer[16];$/;"	v
+bufshow	bios_test.c	/^int bufshow[3]={0};$/;"	v
+cal_days	calendar.c	/^int cal_days(int year,int month)         \/\/ 根据年月确定当月的天数 $/;"	f
+cal_days	calendar.h	/^int cal_days(int year,int month)         \/* 根据年月确定当月的天数 *\/$/;"	f
+cal_num1	calendar.c	/^int cal_num1(int year,int month)  \/\/根据年月确定当月1号是周几 $/;"	f
+cal_num1	calendar.h	/^int cal_num1(int year,int month)  \/*根据年月确定当月1号是周几 *\/$/;"	f
+calendar_change	bios_test.c	/^void calendar_change(int language)$/;"	f
+calendar_server	calendar.c	/^int calendar_server(int fd_key,int fill_mark,int tick)$/;"	f
+calendar_server	calendar.h	/^void calendar_server()$/;"	f
+card_num1	mg_card.c	/^char           card_num1[SIZE3_CARD_NUM1];              		\/\/经过处理的轨3数据存储到card_num3[50]  $/;"	v
+card_num2	mg_card.c	/^char           card_num2[SIZE3_CARD_NUM2];              		\/\/经过处理的轨2数据存储到card_num2[50]$/;"	v
+card_num3	mg_card.c	/^char           card_num3[SIZE4_CARD_NUM3];              		\/\/经过处理的轨3数据存储到card_num3[50]   $/;"	v
+cardid	demo_rc531.c	/^	unsigned char* cardid;$/;"	m	struct:__anon1	file:
+cardid	rc531.c	/^	unsigned char* cardid;$/;"	m	struct:__anon3	file:
+cardnum1	demo_rc531.c	/^char cardnum1[30] = { 0, };$/;"	v
+cardnum2	demo_rc531.c	/^char cardnum2[30] = { 0, };$/;"	v
+cardnum3	demo_rc531.c	/^char cardnum3[30] = { 0, };$/;"	v
+center_phone	demo_App/gprs.c	/^char center_phone[12]="13800270500";$/;"	v
+center_phone	function.c	/^char center_phone[12]="13800270500";$/;"	v
+check	mg_card.c	/^static char check(char data)$/;"	f	file:
+coldreset	demo/demo_psam0.c	/^void coldreset()$/;"	f
+coldreset	demo/demo_psam1.c	/^void coldreset()$/;"	f
+configure_init	function.c	/^void configure_init()			\/\/��ʼ���ֳֻ������豸����ȡϵͳ������LCD�����̣����������첽IO��IC����GPRS�����ȡ��Աȶȡ�ϵͳ���Բ�����$/;"	f
+configure_server	function.c	/^void configure_server()$/;"	f
+convert_back	mg_card.c	/^static int convert_back(char *data,int len, int track,int bit)$/;"	f	file:
+convert_forward	mg_card.c	/^static int convert_forward(char *data, int len, int track,int bit)$/;"	f	file:
+convert_track	mg_card.c	/^static unsigned char convert_track(char direction)      			\/\/对原始数据进行处理$/;"	f	file:
+count	demo_rc531.c	/^	unsigned int count;		\/\/对应n字符总位数$/;"	m	struct:__anon2	file:
+count	rc531.c	/^	unsigned int count;		\/\/对应n字符总位数$/;"	m	struct:__anon4	file:
+count	variable.h	/^int count = 0, count_printer = 0;$/;"	v
+count_printer	variable.h	/^int count = 0, count_printer = 0;$/;"	v
+covert_data	mg_card.c	/^void covert_data(char *buf)$/;"	f
+currenttime	demo_rc531.c	/^struct timeval begintime, currenttime;$/;"	v	typeref:struct:
+currenttime	rc531.c	/^struct timeval begintime, currenttime;$/;"	v	typeref:struct:
+data	sleep.c	/^	int data;$/;"	m	struct:gpio_config	file:
+data	variable.h	/^    int data;$/;"	m	struct:gpio_config
+data_trk1	mg_card.c	/^unsigned char	data_trk1[SIZE1_DATA_TRK1];   				\/\/轨1 原始数据    第2磁道数据编码最大记录长度为79个字符$/;"	v
+data_trk2	mg_card.c	/^unsigned char	data_trk2[SIZE1_DATA_TRK2];   				\/\/轨2 原始数据    第2磁道数据编码最大记录长度为40个字符$/;"	v
+data_trk3	mg_card.c	/^unsigned char	data_trk3[SIZE2_DATA_TRK3];    				\/\/轨3 原始数据    第3磁道数据编码最大记录长度为107个字符$/;"	v
+debug	mg_card.c	22;"	d	file:
+debug	mg_card.c	24;"	d	file:
+dev_sms_fd	demo_App/gprs.c	/^int dev_sms_fd,dev_sms_mask;$/;"	v
+dev_sms_mask	demo_App/gprs.c	/^int dev_sms_fd,dev_sms_mask;$/;"	v
+display_month	calendar.c	/^int display_month(int week,int end)        \/\/week：判断当前一号是周几  end：判断当月有多少天$/;"	f
+display_month	calendar.h	/^int display_month(int week,int end)        \/\/week：判断当前一号是周几  end：判断当月有多少天$/;"	f
+draw_circle	function.c	/^void draw_circle(unsigned long xpos, unsigned long ypos,$/;"	f
+draw_ellipse	function.c	/^void draw_ellipse(unsigned long xpos, unsigned long ypos,$/;"	f
+draw_lcd	function.c	/^void draw_lcd(unsigned int arg , unsigned long xpos, unsigned long ypos,$/;"	f
+draw_rect	function.c	/^void draw_rect(unsigned long xpos, unsigned long ypos,$/;"	f
+driver	App.h	/^enum driver$/;"	g
+driver_name	App.h	/^	char driver_name[13];$/;"	m	struct:DRIVER
+dstate	mg_card.c	/^int dstate = 0 ,error=0;$/;"	v
+endtime	demo/demo_mgcard.c	/^struct timeval begintime, endtime;$/;"	v	typeref:struct:
+error	mg_card.c	/^int dstate = 0 ,error=0;$/;"	v
+fd	App.h	/^	int  fd;$/;"	m	struct:DRIVER
+fd	demo/demo_gprs.c	/^int fd;$/;"	v
+fd	demo/demo_printer.c	/^int fd;$/;"	v
+fd	printer.c	/^int fd;$/;"	v
+fd_mg	mg_card.c	/^int fd_mg,mgflag=0;$/;"	v
+fd_mifare	demo_rc531.c	/^int fd_mifare;$/;"	v
+fd_mifare	rc531.c	/^int fd_mifare;$/;"	v
+fd_psam	variable.h	/^int fd_psam;$/;"	v
+fd_pwm	demo/demo_pwm.c	/^int fd_pwm;$/;"	v
+fd_pwm	pwm.c	/^int fd_pwm;$/;"	v
+fd_show	bios_test.c	/^int fd_show;$/;"	v
+features	variable.h	/^struct features$/;"	s
+fill_mark	variable.h	/^int fill_mark = 1, fill_mark_signal = 2;$/;"	v
+fill_mark_signal	variable.h	/^int fill_mark = 1, fill_mark_signal = 2;$/;"	v
+fill_rect	function.c	/^void fill_rect(unsigned long xpos, unsigned long ypos,$/;"	f
+flag	function.c	/^int flag=1;$/;"	v
+fp	demo/demo_pwm.c	/^FILE *fp;$/;"	v
+fp_r	pwm.c	/^FILE *fp_r;$/;"	v
+get_time	function.c	/^void get_time(time_t timep, struct tm *p)$/;"	f
+getmsg	variable.h	/^char getmsg[500] = { 0, };$/;"	v
+gpio	sleep.c	/^}gpio;$/;"	v	typeref:struct:gpio_config
+gpio	variable.h	/^struct gpio_config gpio;$/;"	v	typeref:struct:gpio_config
+gpio_config	sleep.c	/^struct gpio_config $/;"	s	file:
+gpio_config	variable.h	/^struct gpio_config $/;"	s
+gprs1_test	gprs.c	/^int gprs1_test(int language)$/;"	f
+gprs_msg	demo_App/gprs.c	/^}gprs_msg[]={$/;"	v	typeref:struct:Message
+gprs_msg	function.c	/^}gprs_msg[]={$/;"	v	typeref:struct:Message
+gprs_server	function.c	/^void gprs_server(void)$/;"	f
+gprs_signal	bios_test.c	/^int gprs_signal=0;$/;"	v
+gprs_test	gprs_socket.c	/^int gprs_test(char *getmsg)$/;"	f
+gprs_test_reset	gprs.c	/^int gprs_test_reset(int fd,int language)$/;"	f
+gprs_thread	bios_test.c	/^void gprs_thread(int fd)$/;"	f
+i	demo/demo_gprs.c	/^int i;$/;"	v
+i	demo/demo_mgcard.c	/^int i;$/;"	v
+i	demo/demo_psam0.c	/^int i = 0, receive_len[1] = {0};$/;"	v
+i	demo/demo_psam1.c	/^int i = 0, receive_len[1] = {0};$/;"	v
+i	demo/demo_pwm.c	/^int i=0;$/;"	v
+i	pwm.c	/^int i=0;$/;"	v
+info	demo_App/gprs.c	/^	char info[128];$/;"	m	struct:Message	file:
+info	function.c	/^	char info[128];$/;"	m	struct:Message	file:
+io_flag	rc531.c	/^static int io_flag = 1;$/;"	v	file:
+j	demo_rc531.c	/^unsigned int j;$/;"	v
+j	rc531.c	/^unsigned int j;$/;"	v
+key	demo_rc531.c	/^	unsigned char key[6];$/;"	m	struct:__anon1	file:
+key	rc531.c	/^	unsigned char key[6];$/;"	m	struct:__anon3	file:
+keyBuf2	demo_rc531.c	/^key_buf keyBuf2;$/;"	v
+keyBuf2	rc531.c	/^key_buf keyBuf2;$/;"	v
+key_buf	demo_rc531.c	/^}key_buf;$/;"	t	typeref:struct:__anon1	file:
+key_buf	rc531.c	/^}key_buf;$/;"	t	typeref:struct:__anon3	file:
+key_function	function.c	/^void key_function(int *buf,int *key_num,int flag)$/;"	f
+keymode	demo_rc531.c	/^	unsigned int keymode;$/;"	m	struct:__anon1	file:
+keymode	rc531.c	/^	unsigned int keymode;$/;"	m	struct:__anon3	file:
+language_set	function.c	/^void language_set()$/;"	f
+lcd_clear	function.c	/^void lcd_clear()$/;"	f
+lcdfill	function.c	/^void lcdfill(unsigned long xpos, unsigned long ypos,$/;"	f
+leap	calendar.c	/^int leap(int y)    \/\/判断平闰年 $/;"	f
+leap	calendar.h	/^int leap(int y)    \/*判断平闰年 *\/$/;"	f
+main	App.c	/^int main()$/;"	f
+main	demo/demo_App.c	/^int main()$/;"	f
+main	demo/demo_adc.c	/^int main()$/;"	f
+main	demo/demo_gprs.c	/^int main()$/;"	f
+main	demo/demo_key.c	/^int main()$/;"	f
+main	demo/demo_mgcard.c	/^int main()$/;"	f
+main	demo/demo_printer.c	/^int main()$/;"	f
+main	demo/demo_psam0.c	/^int main()$/;"	f
+main	demo/demo_psam1.c	/^int main()$/;"	f
+main	demo/demo_pwm.c	/^int main()$/;"	f
+main	demo/demo_rc531.c	/^int main()$/;"	f
+main	demo_App/gprs.c	/^int main(int argc, const char *argv[])$/;"	f
+mdelay	bios_test.c	/^void  mdelay(int n)                                \/\/�Զ�����ʱ$/;"	f
+mg_test	mg_card.c	/^int mg_test(int fd,int key_fd)$/;"	f
+mgcard_server	function.c	/^void mgcard_server(void)	\/\/����������$/;"	f
+mgflag	mg_card.c	/^int fd_mg,mgflag=0;$/;"	v
+mifare_buf	demo_rc531.c	/^unsigned char mifare_buf[20];$/;"	v
+mifare_buf	rc531.c	/^unsigned char mifare_buf[20];$/;"	v
+mode	demo_rc531.c	/^	unsigned char mode;$/;"	m	struct:__anon1	file:
+mode	rc531.c	/^	unsigned char mode;$/;"	m	struct:__anon3	file:
+nFileLen	demo/demo_pwm.c	/^unsigned int nFileLen;$/;"	v
+nFileLen	pwm.c	/^unsigned int nFileLen;$/;"	v
+name_arr	gprs.c	/^int name_arr[] = { 115200, 38400, 19200, 9600, 4800, 2400, 1200, 300 };$/;"	v
+no_big_psam	variable.h	/^int no_big_psam = 0, no_small_psam = 0;$/;"	v
+no_small_psam	variable.h	/^int no_big_psam = 0, no_small_psam = 0;$/;"	v
+num	12x24.h	/^unsigned char num[] =              \/\/ ASCII$/;"	v
+num	sleep.c	/^	int num;$/;"	m	struct:gpio_config	file:
+num	variable.h	/^    int num;$/;"	m	struct:gpio_config
+open_driver	function.c	/^int open_driver(int driver_num,int flag)$/;"	f
+open_pw	sleep.c	/^int open_pw(int flags)		\/\/ 以指定方式打开 设备$/;"	f
+p	demo/demo_pwm.c	/^}pwm,*p;$/;"	v	typeref:struct:pwm_config
+p	pwm.c	/^}pwm,*p;$/;"	v	typeref:struct:pwm_config
+p	variable.h	/^}p;$/;"	v	typeref:struct:features
+page	variable.h	/^int page = 1;$/;"	v
+paint_rect	function.c	/^void paint_rect(unsigned char *pdata, int x, int y, int xlen, int ylen)$/;"	f
+paint_string	bios_test.c	/^void paint_string(unsigned char *string,int length,int x)$/;"	f
+paint_struct	App.h	/^}paint_struct;$/;"	t	typeref:struct:_paint_struct
+pic	1.c	/^unsigned char pic[255] = { \/* 0X22,0X01,0X33,0X00,0X23,0X00, *\/$/;"	v
+port	sleep.c	/^	int port;$/;"	m	struct:gpio_config	file:
+port	variable.h	/^    int port;$/;"	m	struct:gpio_config
+pos_chnedit	help.c	/^char *pos_chnedit[50] = {$/;"	v
+pos_chnmenu1	help.c	/^char *pos_chnmenu1[20]={"      �� �� �� ��",\\$/;"	v
+pos_chnmenu2	help.c	/^char *pos_chnmenu2[60]={"      ��Ƶ���˵�",\\$/;"	v
+pos_chnopen	help.c	/^char *pos_chnopen[50]= {"        ��ˢ�� ",\\$/;"	v
+pos_menu1	App.h	/^static char **pos_menu1,**pos_menu2,**pos_menu3,**pos_open;$/;"	v
+pos_menu2	App.h	/^static char **pos_menu1,**pos_menu2,**pos_menu3,**pos_open;$/;"	v
+pos_menu3	App.h	/^static char **pos_menu1,**pos_menu2,**pos_menu3,**pos_open;$/;"	v
+pos_open	App.h	/^static char **pos_menu1,**pos_menu2,**pos_menu3,**pos_open;$/;"	v
+pos_ukedit	help.c	/^char *pos_ukedit[50] = {$/;"	v
+pos_ukmenu1	help.c	/^char *pos_ukmenu1[20]={   "     Function menu",\\$/;"	v
+pos_ukmenu2	help.c	/^char *pos_ukmenu2[60]={"     RFID menu",\\$/;"	v
+pos_ukopen	help.c	/^char *pos_ukopen[50]={" Swip your card: ",\\$/;"	v
+poweroff	variable.h	/^static int poweroff = 0;$/;"	v
+powerstate	bios_test.c	/^int powerstate=0;$/;"	v
+pre_day	bios_test.c	/^int pre_day = -1;$/;"	v
+pre_hour	bios_test.c	/^int pre_hour = -1;$/;"	v
+pre_min	bios_test.c	/^int pre_min = -1;$/;"	v
+pre_mon	bios_test.c	/^int pre_mon = -1;$/;"	v
+pre_wday	bios_test.c	/^int pre_wday = -1;$/;"	v
+pre_year	bios_test.c	/^int pre_year = -1;$/;"	v
+printer_server	function.c	/^void printer_server(void)	\/\/��ӡ������$/;"	f
+printer_test	printer.c	/^int printer_test(int language)$/;"	f
+psam_server	function.c	/^void psam_server()	\/\/psam test$/;"	f
+psam_show	function.c	/^int psam_show()$/;"	f
+psam_test	psam.c	/^int psam_test(char *get_num,int n,int mode)$/;"	f
+ptr_data	App.h	/^	unsigned long ptr_data;$/;"	m	struct:_paint_struct
+pwm	demo/demo_pwm.c	/^}pwm,*p;$/;"	v	typeref:struct:pwm_config
+pwm	pwm.c	/^}pwm,*p;$/;"	v	typeref:struct:pwm_config
+pwm_config	demo/demo.h	/^struct pwm_config$/;"	s
+pwm_config	demo/demo_pwm.c	/^struct pwm_config$/;"	s	file:
+pwm_config	pwm.c	/^struct pwm_config$/;"	s	file:
+pwm_ctrl	demo/demo.h	/^	unsigned long  pwm_ctrl;$/;"	m	struct:pwm_config
+pwm_ctrl	demo/demo_pwm.c	/^	unsigned long  pwm_ctrl;$/;"	m	struct:pwm_config	file:
+pwm_ctrl	pwm.c	/^	unsigned long  pwm_ctrl;$/;"	m	struct:pwm_config	file:
+pwm_data	demo/demo.h	/^	unsigned long  pwm_data;$/;"	m	struct:pwm_config
+pwm_data	demo/demo_pwm.c	/^	unsigned long  pwm_data;$/;"	m	struct:pwm_config	file:
+pwm_data	pwm.c	/^	unsigned long  pwm_data;$/;"	m	struct:pwm_config	file:
+pwm_div	demo/demo.h	/^	unsigned long  pwm_div;$/;"	m	struct:pwm_config
+pwm_div	demo/demo_pwm.c	/^	unsigned long  pwm_div;$/;"	m	struct:pwm_config	file:
+pwm_div	pwm.c	/^	unsigned long  pwm_div;$/;"	m	struct:pwm_config	file:
+pwm_period	demo/demo.h	/^	unsigned long  pwm_period;$/;"	m	struct:pwm_config
+pwm_period	demo/demo_pwm.c	/^	unsigned long  pwm_period;$/;"	m	struct:pwm_config	file:
+pwm_period	pwm.c	/^	unsigned long  pwm_period;$/;"	m	struct:pwm_config	file:
+pwm_server	function.c	/^void pwm_server(void)		\/\/pwm ��������$/;"	f
+pwm_test	pwm.c	/^void pwm_test(int fd_key,int *buf)$/;"	f
+random_num	demo/demo_psam0.c	/^void random_num()$/;"	f
+random_num	demo/demo_psam1.c	/^void random_num()$/;"	f
+rc531_powerdown	function.c	/^void rc531_powerdown()$/;"	f
+rc531_read	rc531.c	/^int rc531_read(int fd, char *cardnum1, char *cardnum2, char *cardnum3, int key_fd)$/;"	f
+rc531_server	function.c	/^void rc531_server(void)$/;"	f
+rc531_signal	function.c	/^void  rc531_signal()$/;"	f
+rc531_test	rc531.c	/^char *rc531_test(int fd, int key_fd)$/;"	f
+rc531_write	rc531.c	/^int rc531_write(int fd ,int key_fd,unsigned char* cardnum)$/;"	f
+read_byte	demo/demo_pwm.c	/^unsigned char read_byte[1024];$/;"	v
+read_byte	pwm.c	/^unsigned char read_byte[1024];$/;"	v
+read_card	demo_rc531.c	/^void read_card()$/;"	f
+read_datas_tty	gprs.c	/^int read_datas_tty(int fd, char *rcv_buf, int sec, int usec)$/;"	f
+read_name1	pwm.c	/^const char *read_name1 = "\/App\/3s.wav";$/;"	v
+read_variable	function.c	/^void read_variable(int variable)$/;"	f
+real	demo_rc531.c	/^	unsigned int real;		\/\/对应real_n和指针对应指向的位置$/;"	m	struct:__anon2	file:
+real	rc531.c	/^	unsigned int real;		\/\/对应real_n和指针对应指向的位置$/;"	m	struct:__anon4	file:
+receive_buf	demo/demo_psam0.c	/^char receive_buf[50] = {0}; $/;"	v
+receive_buf	demo/demo_psam1.c	/^char receive_buf[50] = {0}; $/;"	v
+receive_len	demo/demo_psam0.c	/^int i = 0, receive_len[1] = {0};$/;"	v
+receive_len	demo/demo_psam1.c	/^int i = 0, receive_len[1] = {0};$/;"	v
+recive_phone	demo_App/gprs.c	/^char recive_phone[12]="13396062537";$/;"	v
+result_value	mg_card.c	/^unsigned char  result_value;  $/;"	v
+rf_buf	demo_rc531.c	/^}rf_buf;$/;"	t	typeref:struct:__anon2	file:
+rf_buf	rc531.c	/^}rf_buf;$/;"	t	typeref:struct:__anon4	file:
+rtValue	demo_rc531.c	/^	unsigned char* rtValue;$/;"	m	struct:__anon1	file:
+rtValue	rc531.c	/^	unsigned char* rtValue;$/;"	m	struct:__anon3	file:
+rtValue2	demo_rc531.c	/^unsigned char rtValue2;$/;"	v
+rtValue2	rc531.c	/^unsigned char rtValue2;$/;"	v
+sdcard_server	sdcard.c	/^void sdcard_server()$/;"	f
+security_change	function.c	/^void security_change()$/;"	f
+security_server	function.c	/^void security_server()$/;"	f
+send_message_tar	demo_App/gprs.c	/^void send_message_tar(int fd,int which)$/;"	f
+send_message_tar	function.c	/^void send_message_tar(int fd,int which)$/;"	f
+serial_init	demo_App/gprs.c	/^void serial_init(int fd)$/;"	f
+serial_init	function.c	/^void serial_init(int fd)$/;"	f
+set_Parity	gprs.c	/^int set_Parity(int fd, int databits, int stopbits, int parity)$/;"	f
+set_contrast	function.c	/^void set_contrast(unsigned long level)$/;"	f
+set_gpio	function.c	/^void set_gpio(char port,int num,int data)$/;"	f
+set_gpio_dir	sleep.c	/^void set_gpio_dir(int fd,char port,int num,int data)$/;"	f
+set_pixel	function.c	/^void set_pixel(int x, int y, unsigned char mode)$/;"	f
+set_pwm	pwm.c	/^set_pwm(unsigned long ctrl,unsigned long div, unsigned long	period,	unsigned long data)$/;"	f
+set_speed	gprs.c	/^void set_speed(int fd, int speed)$/;"	f
+show	bios_test.c	/^int show,show1,siglv;$/;"	v
+show	demo_rc531.c	/^	unsigned int show;		\/\/对应show_n显示的位置$/;"	m	struct:__anon2	file:
+show	rc531.c	/^	unsigned int show;		\/\/对应show_n显示的位置$/;"	m	struct:__anon4	file:
+show1	bios_test.c	/^int show,show1,siglv;$/;"	v
+show_dot	bios_test.c	/^void show_dot(int flag,int fd_gprs)$/;"	f
+show_function	function.c	/^void show_function(int n)$/;"	f
+show_page	function.c	/^void show_page(int page_num)$/;"	f
+show_psam	function.c	/^void show_psam(int a,int fill,int n)$/;"	f
+show_time	bios_test.c	/^int show_time(int fd_key,int fd_tlc549,int fd_gprs,int flag)$/;"	f
+shutdown	bios_test.c	/^int shutdown;$/;"	v
+siglv	bios_test.c	/^int show,show1,siglv;$/;"	v
+signal_handler	function.c	/^void signal_handler(int num)	\/\/��������$/;"	f
+size	variable.h	/^    int size[3];$/;"	m	struct:features
+size_info	demo_App/gprs.c	/^	char size_info[16];$/;"	m	struct:Message	file:
+size_info	function.c	/^	char size_info[16];$/;"	m	struct:Message	file:
+sleep_server	sleep.c	/^int sleep_server()     \/\/sep4020 sleep$/;"	f
+speed_arr	gprs.c	/^int speed_arr[] ={ B115200, B38400, B19200, B9600, B4800, B2400, B1200, B300 };$/;"	v
+state	variable.h	/^int state = 0;$/;"	v
+str	function.c	/^char str[12]="0";$/;"	v
+str4	mg_card.c	/^char str4[20];$/;"	v
+string	demo/demo_gprs.c	/^char string[1024]={0};$/;"	v
+success	function.c	/^int success = 0;$/;"	v
+symbol	variable.h	/^	int symbol[3];$/;"	m	struct:features
+system_show	function.c	/^void system_show()$/;"	f
+tcp_connection	function.c	/^void tcp_connection()$/;"	f
+text_out	function.c	/^unsigned char text_out(unsigned char xPos, unsigned char yPos, unsigned char *GBCodeptr)$/;"	f
+text_string	function.c	/^int text_string(int xs,int ys,char *string,int length) \/\/start(x,y)\/string\/length$/;"	f
+tick	variable.h	/^struct itimerval tick;$/;"	v	typeref:struct:itimerval
+time_change	bios_test.c	/^int time_change(int num,int *cal,int i)$/;"	f
+time_show	function.c	/^void time_show()$/;"	f
+time_state	bios_test.c	/^int time_state=0;$/;"	v
+timeout	demo/demo_mgcard.c	/^int timeout=10;$/;"	v
+timeout	rc531.c	/^unsigned int timeout = 10;$/;"	v
+times	function.c	/^int times = 0;$/;"	v
+tmp	demo_rc531.c	/^unsigned long tmp=0;$/;"	v
+tmp	rc531.c	/^unsigned long tmp;$/;"	v
+track1_num	mg_card.c	/^int            track1_num=SIZE1_DATA_TRK1;	      		    	\/\/记录的是轨3数据记录占用的空间长度（处理之后的长度)$/;"	v
+track2_num	mg_card.c	/^int            track2_num=SIZE1_DATA_TRK2;       		       	\/\/记录的是轨2数据记录占用的空间长度  (处理之后的长度)$/;"	v
+track3_num	mg_card.c	/^int            track3_num=SIZE2_DATA_TRK3;	      		    	\/\/记录的是轨3数据记录占用的空间长度（处理之后的长度)$/;"	v
+updata_cyear	bios_test.c	/^void updata_cyear(int year,int n)$/;"	f
+updata_day	bios_test.c	/^void updata_day(int day,int n)$/;"	f
+updata_hour	bios_test.c	/^void updata_hour(int hour)$/;"	f
+updata_min	bios_test.c	/^void updata_min(int min)$/;"	f
+updata_month	bios_test.c	/^void updata_month(int month,int n)$/;"	f
+updata_wday	bios_test.c	/^void updata_wday(int wwday,int flag)$/;"	f
+updata_year	bios_test.c	/^void updata_year(int year,int n)$/;"	f
+update_server	function.c	/^void update_server()$/;"	f
+usb_server	function.c	/^void usb_server(void)		\/\/USB test$/;"	f
+which	demo_App/gprs.c	/^	int which;$/;"	m	struct:Message	file:
+which	function.c	/^	int which;$/;"	m	struct:Message	file:
+write_card	demo_rc531.c	/^int write_card(int key_fd)$/;"	f
+write_gprs	function.c	/^int write_gprs(char *string, int mode, char *expect_str, int timeout)$/;"	f
+xPos	demo_rc531.c	/^	unsigned int xPos;		\/\/对应x坐标指向的位置$/;"	m	struct:__anon2	file:
+xPos	rc531.c	/^	unsigned int xPos;		\/\/对应x坐标指向的位置$/;"	m	struct:__anon4	file:
